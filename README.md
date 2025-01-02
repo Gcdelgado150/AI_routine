@@ -15,4 +15,5 @@ python main.py
 
 1. Configure Grok AI
 2. Configure Tools
-3. 
+3. Define Routine
+4. Invoke model using the routine defined

@@ -105,9 +105,7 @@ print(f"Question: {routine}")
 
 s = time()
 
-output = agent_executor.invoke(
-                {"input": routine},
-            )
+output = agent_executor.invoke({"input": routine},)
 
 print(output.get("output"))
 e = time()
